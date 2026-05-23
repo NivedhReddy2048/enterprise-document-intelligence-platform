@@ -196,10 +196,10 @@ According to the retrieved context [Page 414]...
 
 # 📈 System Evaluation Metrics
 
-## | Evaluation Metric | Score | Definition |
-## |---|---|---|
-## | Mean Pipeline Faithfulness | **83.0%** | Measures strict adherence to retrieved document context |
-## | Mean Answer Relevance | **87.0%** | Measures how accurately the response addresses the user query |
+| Evaluation Metric | Score | Definition |
+|---|---|---|
+| Mean Pipeline Faithfulness | **83.0%** | Measures strict adherence to retrieved document context |
+| Mean Answer Relevance | **87.0%** | Measures how accurately the response addresses the user query |
 
 ## These metrics validate that the retrieval pipeline maintains strong factual grounding even across massive technical documents.
 
