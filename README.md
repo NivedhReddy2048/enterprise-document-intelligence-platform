@@ -4,11 +4,11 @@
 
 ---
 
-## **🔴 Live Demo:** [Click here to test the app]()  
+## **🔴 Live Demo:** [Click here to test the app](https://huggingface.co/spaces/NivedhReddy/enterprise-rag-platform)  
 
 ## > Built for large-scale document interrogation, grounded verification, and enterprise-safe AI retrieval.
 
-![Enterprise RAG UI](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/assets/ui.png?raw=true)
+![Enterprise RAG UI](https://github.com/NivedhReddy2048/enterprise-document-intelligence-platform/blob/main/Enterprise_UI.png?raw=true)
 
 ![App Screenshot]()
 
