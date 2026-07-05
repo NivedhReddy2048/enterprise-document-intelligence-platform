@@ -10,6 +10,8 @@
 
 ![Enterprise UI](https://github.com/NivedhReddy2048/enterprise-document-intelligence-platform/blob/main/Colab_Gradio_UI.png?raw=true)
 
+![Enterprise UI](https://github.com/NivedhReddy2048/enterprise-document-intelligence-platform/blob/main/Huggingface_Gradio_UI.png?raw=true)
+
 ---
 
 # 🌟 Overview
