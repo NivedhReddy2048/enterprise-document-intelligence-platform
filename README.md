@@ -1,416 +1,416 @@
 # 🚀 Enterprise Document Intelligence Platform
 
-## An enterprise-grade, hybrid Retrieval-Augmented Generation (RAG) architecture engineered to eliminate hallucinations across massive technical documents using dense semantic retrieval, BM25 keyword search, and grounded citation-based AI reasoning.
+> **An enterprise-grade Hybrid Retrieval-Augmented Generation (RAG) platform for intelligent document understanding, semantic search, grounded question answering, and citation-based AI reasoning.**
 
 ---
 
 ## **🔴 Live Demo:** [Click here to test the app](https://huggingface.co/spaces/NivedhReddy/enterprise-rag-platform)  
 
-## > Built for large-scale document interrogation, grounded verification, and enterprise-safe AI retrieval.
+## 📸 Enterprise Dashboard
 
-![Enterprise RAG UI](https://github.com/NivedhReddy2048/enterprise-document-intelligence-platform/blob/main/Enterprise_UI.png?raw=true)
-
-![App Screenshot]()
+![Enterprise UI](Enterprise_UI.png)
 
 ---
 
-# 🧠 The Problem & Solution
+# 🌟 Overview
 
-## Traditional RAG pipelines fail at enterprise scale.
+Enterprise Document Intelligence Platform is an advanced Retrieval-Augmented Generation (RAG) system engineered to provide accurate, grounded, and explainable answers from large PDF documents.
 
-## When querying:
+Unlike traditional PDF chatbots that rely only on vector similarity, this platform combines **Hybrid Retrieval**, **Cross-Encoder Re-ranking**, **Semantic Search**, **BM25 Keyword Matching**, **Grounded Citations**, and **Enterprise Monitoring** to improve retrieval quality while reducing hallucinations.
 
-### - 500+ page manuals
-### - technical reports
-### - aptitude archives
-### - legal PDFs
-### - structured enterprise documents
-
-## basic vector search systems begin to:
-
-### - lose semantic context
-### - miss exact keywords
-### - hallucinate facts
-### - retrieve irrelevant chunks
-### - fail long-context reasoning
-
-## This project solves that problem by engineering a **multi-layer hybrid retrieval pipeline** that mathematically grounds every response in the source document.
-
-## Instead of relying purely on embeddings, the system combines:
-
-### - **Dense Semantic Retrieval** → captures meaning
-### - **Sparse BM25 Retrieval** → captures exact keywords
-### - **Hybrid Fusion Retrieval** → combines both intelligently
-### - **Grounded Citation Injection** → forces factual responses
-### - **LLM-as-a-Judge Evaluation** → scientifically validates accuracy
-
-## The result is a production-style Enterprise Document Intelligence Engine capable of handling massive files with high factual reliability.
+The platform features a modern enterprise dashboard for document ingestion, health monitoring, query analytics, evidence visualization, and intelligent document interaction.
 
 ---
 
-# ⚙️ Tech Stack
+# ✨ Features
 
-## **LLM / Reasoning Engine**
-- `Gemini 2.5 Flash`
+## 📄 Intelligent Document Processing
 
-## **Dense Embedding Model**
-- `BAAI/bge-large-en-v1.5`
-
-## **Sparse Retriever**
-- `BM25 Algorithm`
-
-## **Vector Database**
-- `ChromaDB`
-
-## **Framework / Orchestration**
-- `LangChain`
-
-## **Frontend/UI**
-- `Gradio Blocks`
-
-## **Document Processing**
-- `PyPDFLoader`
-- `RecursiveCharacterTextSplitter`
-
-## **Evaluation Framework**
-- `LLM-as-a-Judge`
-- `RAGAS-inspired metrics`
-
-## **Language**
-- `Python`
+- PDF Upload & Indexing
+- Automatic Metadata Extraction
+- OCR Support for Scanned PDFs
+- Recursive Semantic Chunking
+- Parent-Child Context Preservation
 
 ---
 
-# ✨ Core Engineering Features
+## 🔍 Enterprise Hybrid Retrieval
 
-## 1. 🚀 Hybrid Retrieval Pipeline (Dense + Sparse)
-
-## Traditional vector databases miss:
-
-### - acronyms
-### - exact keywords
-### - numeric values
-### - technical identifiers
-
-### To eliminate retrieval slippage, the system executes:
-
-### - **Dense Vector Search**
-### - **Sparse BM25 Search**
-
-## simultaneously.
-
-## Both result sets are fused into a unified retrieval layer before LLM orchestration.
-
-## This dramatically improves:
-
-### - retrieval precision
-### - factual grounding
-### - long-document reliability
+- Dense Semantic Search (BGE Embeddings)
+- BM25 Sparse Keyword Search
+- Hybrid Retrieval Fusion
+- Cross-Encoder Re-ranking
+- Context Compression
+- Adaptive Retrieval Strategy
 
 ---
 
-## 2. 🧩 Advanced Parent-Child Chunking
+## 🤖 AI Reasoning
 
-## Naive chunking destroys context by slicing paragraphs randomly.
-
-## This platform implements:
-
-### - semantic-aware chunking
-### - overlapping structural segmentation
-### - parent-child contextual preservation
-
-## This ensures:
-
-### - metrics remain tied to explanations
-### - tables remain meaningful
-### - technical discussions stay coherent
+- Gemini 2.5 Flash
+- Grounded Prompt Engineering
+- Citation-aware Responses
+- Hallucination Prevention
+- Confidence Estimation
+- Evidence-based Answer Generation
 
 ---
 
-## 3. 📄 Grounded Citation Injection
+## 📊 Enterprise Dashboard
 
-## Every generated answer is grounded using:
+- Live Document Statistics
+- Document Registry
+- Query Analytics
+- Confidence Score
+- Retrieval Score
+- Latency Monitoring
+- Evidence Viewer
+- Suggested Prompts
+- Health Monitoring Dashboard
 
-### - page-linked citations
-### - retrieved source chunks
-### - contextual verification layers
+---
 
-## Example:
+## 🛡 Enterprise Reliability
 
-```text
-According to the retrieved context [Page 414]...
+- Automatic API Quota Detection
+- Runtime Error Handling
+- Persistent Document Registry
+- ChromaDB Persistence
+- Metadata Caching
+- Embedding Cache
+- Health Diagnostics
+
+---
+
+# 🧠 Why Hybrid RAG?
+
+Traditional RAG systems often struggle with:
+
+- Missing exact keywords
+- Poor retrieval of numeric information
+- Weak semantic understanding
+- Hallucinated answers
+- Long document reasoning
+
+This project addresses these challenges by combining multiple retrieval techniques into a unified enterprise pipeline.
+
+---
+
+# 🏗 System Architecture
+
 ```
-
-### This creates:
-
-### - transparent reasoning
-### - traceable outputs
-### - enterprise-safe responses
-
----
-
-## 4. 🛡️ Hallucination Prevention Guardrails
-
-## The system is explicitly instructed to:
-
-### - refuse unsupported claims
-### - avoid speculative reasoning
-### - reject unverifiable outputs
-
-## If sufficient evidence is unavailable:
-
-```text
-"I cannot verify this based on the uploaded document."
-```
-
-## is returned instead of hallucinated text.
-
----
-
-## 5. ⚡ Enterprise Error Handling
-
-## Cloud API failures are gracefully intercepted using:
-
-### - custom exception handling
-### - quota detection logic
-### - runtime protection layers
-
-## Instead of crashing:
-
-### - professional UI warnings are displayed
-### - rate-limit messages are surfaced cleanly
-
----
-
-## 6. 📊 Scientific Evaluation Framework
-
-## The architecture was benchmarked using:
-
-### - hallucination traps
-### - semantic synthesis tests
-### - needle-in-a-haystack retrieval tasks
-
-### using an automated LLM-as-a-Judge framework.
-
----
-
-# 📈 System Evaluation Metrics
-
-| Evaluation Metric | Score | Definition |
-|---|---|---|
-| Mean Pipeline Faithfulness | **83.0%** | Measures strict adherence to retrieved document context |
-| Mean Answer Relevance | **87.0%** | Measures how accurately the response addresses the user query |
-
-## These metrics validate that the retrieval pipeline maintains strong factual grounding even across massive technical documents.
-
----
-
-# 🏗️ System Architecture
-
-```text
-User Uploads PDF
-        ↓
-Document Parsing Pipeline
-        ↓
-Semantic Parent-Child Chunking
-        ↓
-Dense Embedding Generation (BGE)
-        ↓
-Chroma Vector Database
-        ↓
-BM25 Sparse Retrieval
-        ↓
-Hybrid Retrieval Fusion
-        ↓
-Context Injection + Citations
-        ↓
-Gemini 2.5 Flash
-        ↓
-Grounded Enterprise Response
+                User Uploads PDF
+                        │
+                        ▼
+              PDF Parsing + OCR
+                        │
+                        ▼
+          Recursive Semantic Chunking
+                        │
+                        ▼
+        BGE Large Embedding Generation
+                        │
+                        ▼
+             Chroma Vector Database
+                        │
+            ┌───────────┴───────────┐
+            ▼                       ▼
+     Dense Vector Search       BM25 Search
+            │                       │
+            └───────────┬───────────┘
+                        ▼
+             Hybrid Retrieval Fusion
+                        │
+                        ▼
+          Cross Encoder Re-ranking
+                        │
+                        ▼
+            Context Compression
+                        │
+                        ▼
+           Gemini 2.5 Flash LLM
+                        │
+                        ▼
+     Grounded Response + Citations
 ```
 
 ---
 
-# 🚀 How It Works Under the Hood
+# ⚙ Technology Stack
 
-## 1. Document Ingestion
+## Programming Language
 
-## The system extracts raw text from uploaded PDFs using `PyPDFLoader`.
-
----
-
-## 2. Structural Chunking
-
-## Documents are segmented into overlapping semantic chunks while preserving contextual continuity.
+- Python
 
 ---
 
-## 3. Dense Vectorization
+## Large Language Model
 
-## The `bge-large-en-v1.5` embedding model converts chunks into high-dimensional semantic vectors.
-
----
-
-## 4. Sparse Keyword Indexing
-
-## BM25 indexing captures:
-
-### - exact terminology
-### - acronyms
-### - numeric references
-### - technical keywords
-
-## that embeddings often miss.
+- Gemini 2.5 Flash
 
 ---
 
-## 5. Hybrid Retrieval
+## Embedding Model
 
-### Dense + sparse retrieval outputs are fused into a unified retrieval layer.
-
----
-
-## 6. Context Injection
-
-### The highest-confidence chunks are injected into the LLM prompt alongside page-linked citations.
+- BAAI/bge-large-en-v1.5
 
 ---
 
-## 7. Grounded Response Generation
+## Retrieval
 
-### Gemini 2.5 Flash synthesizes a final answer strictly bounded to retrieved evidence.
+- ChromaDB
+- BM25
+- Hybrid Search
+- Cross Encoder Re-ranking
 
 ---
 
-# 📂 Example Evaluation Output
+## Frameworks
 
-```text
-🚀 Starting Automated Capstone Evaluation Process...
+- LangChain
+- Gradio
 
-==================================================
-📊 SYSTEM ACCURACY SCORECARD REPORT
-==================================================
+---
 
-Mean Pipeline Faithfulness: 0.83 / 1.0
-Mean Pipeline Answer Relevance: 0.87 / 1.0
+## Document Processing
 
-==================================================
-Question	Faithfulness	Relevance
-==================================================
+- PyMuPDF
+- PyPDF
+- OCR Pipeline
 
-What topic is covered under page 260? → 1.00
-Daily wages ratio question → 0.75
-Counting figures triangle question → 0.70
-Partnership ratio calculations → 0.70
-JSON format explanation → 1.00
+---
+
+## Libraries
+
+- Sentence Transformers
+- Rank BM25
+- Pandas
+- NumPy
+
+---
+
+# 🚀 Core Engineering Components
+
+## Hybrid Retrieval Engine
+
+Combines:
+
+- Dense Vector Search
+- BM25 Keyword Search
+- Retrieval Fusion
+- Cross-Encoder Re-ranking
+
+to improve retrieval precision and reduce hallucinations.
+
+---
+
+## Cross Encoder Re-ranking
+
+Candidate chunks retrieved from Hybrid Search are re-ranked using a Cross Encoder model to improve contextual relevance before being sent to the LLM.
+
+---
+
+## Grounded Citation Engine
+
+Every generated response includes citations extracted directly from retrieved document chunks.
+
+Example:
+
+```
+Mars is the fourth planet from the Sun.
+
+[SOURCE:
+Deep_Solar_System_Report.pdf
+Page 3]
 ```
 
 ---
 
-# 🌐 Future Scalability & Cloud Deployment
+## Evidence Viewer
 
-## The architecture is modular and cloud-ready.
+Every response is accompanied by:
 
-## Planned Enterprise Upgrades
+- Retrieved Document
+- Page Number
+- OCR Status
+- Retrieval Score
+- Evidence Preview
 
-### Containerization
-### - Dockerized deployment pipeline
-
-### Cloud Infrastructure
-### - AWS ECS / EC2 deployment
-
-### Managed Vector Databases
-### - Pinecone
-### - AWS OpenSearch
-### - Qdrant Cloud
-
-### Persistent Storage
-- AWS S3 document ingestion
-
-### Advanced Retrieval
-### - reranking pipelines
-### - contextual compression
-### - multi-query retrieval
-
-### Multi-Document Intelligence
-### - cross-document reasoning
-### - collection-level retrieval
+allowing complete transparency of the reasoning process.
 
 ---
 
-# 💻 Run Locally
+## Enterprise Health Dashboard
 
-## 1. Clone the Repository
+The system continuously monitors:
+
+- Document Count
+- Pages Indexed
+- Metadata Cache
+- Embedding Cache
+- ChromaDB Status
+- BM25 Status
+- OCR Status
+- Persistence
+- Memory Statistics
+- Registry Size
+
+---
+
+## Query Analytics
+
+Each query displays:
+
+- Confidence Score
+- Query Latency
+- Retrieved Chunks
+- Top Re-ranking Score
+
+providing insights into retrieval quality.
+
+---
+
+# 💻 Enterprise UI
+
+The platform includes a professional enterprise interface with:
+
+- KPI Dashboard
+- Upload Center
+- Document Registry
+- AI Chat Workspace
+- Suggested Prompts
+- Query Analytics
+- Evidence Viewer
+- Health Monitoring
+- Advanced Diagnostics
+
+---
+
+# 📂 Project Structure
+
+```
+Enterprise_RAG_Assistant.ipynb
+README.md
+Enterprise_UI.png
+```
+
+---
+
+# 🚀 Running the Project
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/NivedhReddy2048/enterprise-document-intelligence-platform
+git clone https://github.com/NivedhReddy2048/enterprise-document-intelligence-platform.git
 ```
 
 ---
 
-## 2. Install Dependencies
+## Install Dependencies
 
 ```bash
-pip install -qU langchain-google-genai
-pip install -qU langchain-community
-pip install -qU langchain-huggingface
-pip install -qU chromadb
-pip install -qU pypdf
-pip install -qU rank_bm25
-pip install -qU sentence-transformers
-pip install -qU gradio
+pip install -U \
+langchain \
+langchain-community \
+langchain-google-genai \
+langchain-huggingface \
+sentence-transformers \
+chromadb \
+rank-bm25 \
+gradio \
+pymupdf \
+pandas \
+numpy
 ```
 
 ---
 
-## 3. Set Your Gemini API Key
+## Configure API Key
 
 ```python
 import os
-os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"
+
+os.environ["GOOGLE_API_KEY"] = "YOUR_GEMINI_API_KEY"
 ```
 
 ---
 
-## 4. Run the Application
+## Launch
 
-```bash
-python app.py
-```
+Open the notebook and execute all cells.
+
+The Gradio interface will launch automatically.
 
 ---
 
-# 📌 Key Research Contributions
+# 📈 Current Capabilities
 
-### - Hybrid Dense + Sparse Retrieval Architecture
-### - Citation-Grounded Enterprise RAG
-### - Hallucination Mitigation via Retrieval Fusion
-### - Large-Document Semantic Search
-### - LLM-as-a-Judge Evaluation Pipeline
-### - Enterprise-Scale Context Engineering
+✔ Large PDF Processing
+
+✔ OCR Support
+
+✔ Hybrid Retrieval
+
+✔ Dense + Sparse Search
+
+✔ Cross Encoder Re-ranking
+
+✔ Grounded Citations
+
+✔ Enterprise Dashboard
+
+✔ Query Analytics
+
+✔ Health Monitoring
+
+✔ Evidence Viewer
+
+✔ Confidence Estimation
+
+✔ ChromaDB Persistence
+
+✔ Intelligent Document Search
+
+---
+
+# 🔮 Future Improvements
+
+- Multi-document Retrieval
+- Knowledge Graph Integration
+- Agentic Workflows
+- Table Extraction
+- Image Understanding
+- Multi-modal RAG
+- Azure OpenAI Support
+- Docker Deployment
+- Kubernetes Deployment
+- AWS Integration
+- Pinecone / Qdrant Support
 
 ---
 
 # 👨‍💻 Author
 
-# Pingili Nivedh Reddy
+## Pingili Nivedh Reddy
 
-## Backend & AI Engineer
+AI Engineer | Retrieval-Augmented Generation | LLM Applications | Intelligent Search Systems
 
-## Focused on:
-
-### - Enterprise AI Systems
-### - Retrieval-Augmented Generation
-### - Applied LLM Engineering
-### - Vector Databases
-### - Intelligent Search Architectures
+GitHub:
+https://github.com/NivedhReddy2048
 
 ---
 
-# ⭐ Final Note
+# ⭐ Project Highlights
 
-## This project is not a simple PDF chatbot.
+- Enterprise-grade Hybrid RAG
+- Explainable AI with Grounded Citations
+- Cross-Encoder Re-ranking
+- Professional Enterprise Dashboard
+- OCR-enabled Document Intelligence
+- Query Analytics & Monitoring
+- Production-style Architecture
+- Modular and Extensible Design
 
-## It is an enterprise-focused retrieval intelligence system engineered to solve one of the most critical problems in modern Generative AI:
+---
 
-## > ensuring factual reliability across massive unstructured documents.
+## If you found this project useful, consider giving it a ⭐ on GitHub.
